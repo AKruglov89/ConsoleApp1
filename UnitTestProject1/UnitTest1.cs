@@ -9,6 +9,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            if (1 != 1)
+                catch false;
         }
     }
 }
